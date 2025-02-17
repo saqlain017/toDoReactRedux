@@ -8,7 +8,7 @@ import {
   updateTodo,
   deleteTodo,
   toggleComplete,
-} from "./features/slice/toDoSlice.js";
+} from "/features/slice/toDoSlice.js";
 
 const TodoItem = ({ todo }) => {
   const [isEditing, setIsEditing] = useState(false);
