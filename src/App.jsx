@@ -1,6 +1,6 @@
 import { Provider } from "react-redux";
-import { store } from "/store/store.js";
-import TodoList from "/TodoList.jsx";
+import { store } from "./store/store.js";
+import TodoList from "./TodoList.jsx";
 
 const App = () => {
   return (
