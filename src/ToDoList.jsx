@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
 import { addTodo } from "./features/slice/toDoSlice";
-import TodoItem from "./TodoItem";
+import TodoItem from "./TodoItem.jsx";
 
 const TodoList = () => {
   const [newTodo, setNewTodo] = useState("");
